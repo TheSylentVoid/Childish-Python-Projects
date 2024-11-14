@@ -1,0 +1,15 @@
+#This is a python project BTW
+operator = input("What's the operator(+ - * /)?:")
+num1 = float(input("Whats the 1st Number?:"))
+num2 = float(input("Whats the 2nd Number?:"))
+
+if operator == "+":
+    print(num1 + num2)
+elif operator == "-":
+    print(num1 - num2)
+elif operator == "*":
+    print(num1 * num2)
+elif operator == "/":
+    print(f"{round(num1 / num2, 4)}")
+else:
+    print("not an actual operator, please try again!")
